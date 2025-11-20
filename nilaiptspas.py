@@ -7,7 +7,7 @@ def minta_nilai(pelajaran):
             print("0")
 
 
-print("NILAI PTS KELAS 11/12 MIPA")
+print("NILAI PTS & PAS KELAS 11/12 MIPA")
 print()
 
 
@@ -149,4 +149,5 @@ for t, line in lyrics:
     time.sleep(t - prev_time)
     type_line(line)
     prev_time = t
+
     print()
